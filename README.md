@@ -9,5 +9,6 @@ Gradient-Descent is an algorithm used to find the the minimum of a function. An 
 4. Until maximum iteration or very small change
 
 ## Example
+![image](https://github.com/ChienKangLu/Gradient-Descent/blob/master/gradient-descent-example.png)
 
 
