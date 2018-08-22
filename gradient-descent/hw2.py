@@ -24,7 +24,7 @@ def data():
 
 
 def draw(X, Y):
-    plt.scatter(X, Y, color="black", marker='o', alpha=0.5, linestyle='None', picker=True)
+    plt.plot(X, Y, color="black", linestyle='-', picker=True)
 
 
 def onpick(event):
@@ -56,7 +56,11 @@ if __name__ == '__main__':
     draw(X, Y)
     plt.xlabel("x")
     plt.ylabel("y")
-
+    x = 8
+    y = f(x)
+    plt.scatter(x, y, color="blue", marker='o', linestyle='None', picker=True, s=20*4*2)
     x,y = gradient_descent(8,0.02,30000)
     print("min point",x,y)
+
+    plt.scatter(x, y, color="red", marker='o', linestyle='None', picker=True, s=20*4*2)
     plt.show()
