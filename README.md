@@ -3,9 +3,9 @@ Gradient-Descent is an algorithm used to find the the minimum of a function. An 
 
 ## Step
 1. Choose an arbitrary point
-2. calculate its derivative
-3. move to the opposite direction
-4. update to a new point
+2. Calculate its derivative
+3. Move to the opposite direction
+4. Update to a new point
 
 ## Example
 
