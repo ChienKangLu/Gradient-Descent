@@ -1,2 +1,3 @@
-# Gradient-Descen
-This is a project for Gradient-Descent
+# Gradient-Descent
+Gradient-Descent is an algorithm used to find the the minimum of a function.
+
